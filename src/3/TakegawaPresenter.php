@@ -1,22 +1,39 @@
 <?php /** @noinspection NonAsciiCharacters */
 
-namespace Three;
+namespace Three\DakyoCase;
 
-use Three\JokeBook\AnimalHamaguchiJoKeBook;
-use Three\JokeBook\InokiJokeBook;
-use Three\JokeBook\TakegawaJokeBook;
 
 class TakegawaPresenter
 {
     public function startLT(): void
     {
-        echo InokiJokeBook::getダー();
-        echo InokiJokeBook::get苦しいときこそ過激に();
-        echo AnimalHamaguchiJoKeBook::get気合();
-        echo TakegawaJokeBook::getオイルinハンバーグ();
+        echo $this->get持ちネタFromInoki();
+        echo $this->get持ちネタFromAnimalHamaguchi();
+        echo $this->get持ちネタFromTakegawa();
+    }
+
+    private function get持ちネタFromInoki(): string
+    {
+        return
+            "いくぞ！"
+            . "123"
+            . "ダー！";
+    }
+
+    private function get持ちネタFromAnimalHamaguchi(): string
+    {
+        return
+            "気合だ！気合だ！気合だ！気合だ！"
+            . "オイ！オイ！オイ！オイ！";
+    }
+
+    private function get持ちネタFromTakegawa(): string
+    {
+        return
+            'オイルｉｎハンバーグ'
+            . '食べたら'
+            . '口内あぶらでギットギト〜';
     }
 }
-
-
 
 

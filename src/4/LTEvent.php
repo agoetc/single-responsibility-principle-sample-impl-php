@@ -1,6 +1,6 @@
 <?php
 
-namespace Three\DakyoCase;
+namespace Four;
 
 class LTEvent
 {

@@ -1,6 +1,6 @@
 <?php /** @noinspection NonAsciiCharacters */
 
-namespace Three\JokeBook;
+namespace Four\JokeBook;
 
 class TakegawaJokeBook
 {
