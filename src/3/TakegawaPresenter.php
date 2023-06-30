@@ -7,6 +7,11 @@ class TakegawaPresenter
 {
     public function startLT(): void
     {
+        $this->startコンテキストがゴチャついてる例を見せる();
+    }
+
+    private function startコンテキストがゴチャついてる例を見せる(): void
+    {
         echo $this->get持ちネタFromInoki();
         echo $this->get持ちネタFromAnimalHamaguchi();
         echo $this->get持ちネタFromTakegawa();
